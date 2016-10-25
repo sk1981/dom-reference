@@ -35,7 +35,7 @@
 |[screenX/Y](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/screenX) |  X/Y coordinate of the mouse pointer in global (screen) coordinates|pixels|All|
 |[movementX/Y](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/movementX) |  X/Y coordinate of the mouse pointer relative to the position of the last mousemove event|pixels|No IE/Safari|
 |[offsetX/Y](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/offsetX) | X/Y Offset of the mouse pointer between that event and the padding edge of the target node|pixels|All|
-|[button](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/button) |Indicates which button was pressed on the mouse to trigger the event|1. 0 - Main Button 2. 1 - Auxiliary button 3. 2 - Secondary button|IE9+|
-|[buttons](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/buttons) |Indicates which buttons are pressed on the mouse when the event is triggered, the values are combined if more than button is pressed|1. 0 - None 2. 1 - Left 3. 2 - Right 4. 4 - Middle|IE9+, No Safari|
-|[which](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/buttons) |Indicates which buttons are pressed on the mouse when the event is triggered, the values are combined if more than button is pressed|1. 0 - None 2. 1 - Left 3. 2 - Middle  4. 4 - Middle|IE9+|
+|[button](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/button) |Indicates which button was pressed on the mouse to trigger the event|<ul><li>0 - Main</li><li>1 - Auxiliary</li><li>2 - Secondary</li></ul>|IE9+|
+|[buttons](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/buttons) |Indicates which buttons are pressed on the mouse when the event is triggered, the values are combined if more than button is pressed| <ul><li>0 - None</li><li>1 - Left</li><li>2 - Right</li><li>4 - Middle</li></ul> |IE9+, No Safari|
+|[which](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/buttons) |Indicates which buttons are pressed on the mouse when the event is triggered, the values are combined if more than button is pressed| <ul><li>0 - None</li><li>1 - Left</li><li>2 - Right</li><li>4 - Middle</li></ul> |IE9+|
 
