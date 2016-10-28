@@ -39,3 +39,9 @@
 |[buttons](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/buttons) |Indicates which buttons are pressed on the mouse when the event is triggered, the values are combined if more than button is pressed| <ul><li>0 - None</li><li>1 - Left</li><li>2 - Right</li><li>4 - Middle</li></ul> |IE9+, No Safari|
 |[which](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/buttons) |Indicates which buttons are pressed on the mouse when the event is triggered, the values are combined if more than button is pressed| <ul><li>0 - None</li><li>1 - Left</li><li>2 - Right</li><li>4 - Middle</li></ul> |IE9+|
 
+## Keyboard Events
+
+## Touch Events
+
+## Form Events
+
