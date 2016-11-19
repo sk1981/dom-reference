@@ -41,6 +41,12 @@
 
 ## Keyboard Events
 
+|Event Name|Description|Bubbles|Browser|Default Action|
+|----------|-----------|-------|-------|--------------|
+|[keydown](https://developer.mozilla.org/en-US/docs/Web/Events/keydown)|The keydown event is fired when a key is pressed down|No|All|Varies - depends upon key|
+|[keypress](https://developer.mozilla.org/en-US/docs/Web/Events/keypress) |The keypress event is fired when a key is pressed down and that key normally produces a character value|No|All|Varies - depends upon key|
+|[keyup](https://developer.mozilla.org/en-US/docs/Web/Events/keyup) |The keyup event is fired when a key is released|No|All|None|
+
 ## Touch Events
 
 ## Form Events
