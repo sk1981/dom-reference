@@ -21,3 +21,12 @@ Methods to insert the given node in the DOM
 
 1: position enum: one of 'beforebegin/afterbegin/beforeend/afterend'
 
+## Node Update
+| Method | Argument | Returns | Description   |Browser    |
+|------------|-------------|------------|-----------|------------|-----------|
+|[node.replaceChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild) |  <ol><li>new node to be inserted</li><li>existing child node to be replaced</li></ol>| Replaced node| Replaces one child node of the specified node with another.|All|
+
+## Node Remove
+| Method | Argument | Returns | Description   |Browser    |
+|------------|-------------|------------|-----------|------------|-----------|
+|[node.removeChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild) |  Child node to be removed | Removed node|  Removes a child node from the specified parent node.|All|
